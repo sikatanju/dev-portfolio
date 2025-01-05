@@ -8,9 +8,6 @@ interface ButtonProps {
     classes?: string;
 }
 
-/**
- * Primary Button
- */
 const ButtonPrimary: React.FC<ButtonProps> = ({
     href,
     target = "_self",
@@ -55,9 +52,6 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
     }
 };
 
-/**
- * Outline Button
- */
 const ButtonOutline: React.FC<ButtonProps> = ({
     href,
     target = "_self",

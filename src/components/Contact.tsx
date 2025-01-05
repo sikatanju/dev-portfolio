@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const socialLinks = [
     {
-        href: "https://www.github.com/codewithsadee-org",
+        href: "https://www.github.com/sikatanju",
         icon: (
             <svg
                 width="24"
@@ -19,7 +19,7 @@ const socialLinks = [
         alt: "GitHub",
     },
     {
-        href: "https://www.linkedin.com/in/codewithsadee",
+        href: "https://www.linkedin.com/in/sikatanju",
         icon: (
             <svg
                 width="24"
@@ -37,7 +37,7 @@ const socialLinks = [
         alt: "LinkedIn",
     },
     {
-        href: "https://x.com/codewithsadee_",
+        href: "https://x.com/sikatanju",
         icon: (
             <svg
                 width="24"
@@ -55,7 +55,7 @@ const socialLinks = [
         alt: "Twitter X",
     },
     {
-        href: "https://www.instagram.com/codewithsadee",
+        href: "https://www.instagram.com/sikatanju",
         icon: (
             <svg
                 width="25"
@@ -79,16 +79,17 @@ const Contact = () => {
         <section id="contact" className="section">
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
                 <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-                    <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
-                        Contact me for collaboration
-                    </h2>
+                    <div className="flex flex-wrap justify-center">
+                        <h2 className="headline-1 lg:max-w-[13ch] reveal-up max-w-full">
+                            Contact me for collaboration
+                        </h2>
 
-                    <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-                        Reach out today to discuss your project needs and start
-                        collaborating on something amazing!
-                    </p>
-
-                    <div className="flex items-center gap-2 mt-auto">
+                        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up text-center">
+                            Reach out today to discuss your project needs and
+                            start collaborating on something amazing!
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-center gap-2 mt-auto">
                         {socialLinks.map(({ href, icon }, key) => (
                             <a
                                 key={key}
@@ -102,7 +103,11 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form action="#" method="POST" className="xl:pl-10 2xl:pl-20">
+                <form
+                    action="https://formspree.io/f/mgvvpzkk"
+                    method="POST"
+                    className="xl:pl-10 2xl:pl-20"
+                >
                     <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                         <div className="mb-4">
                             <label htmlFor="name" className="label reveal-up">
@@ -115,7 +120,7 @@ const Contact = () => {
                                 id="name"
                                 autoComplete="name"
                                 required
-                                placeholder="Henry Clark"
+                                placeholder="Sayad IKA"
                                 className="text-field reveal-up"
                             />
                         </div>
@@ -131,7 +136,7 @@ const Contact = () => {
                                 id="email"
                                 autoComplete="email"
                                 required
-                                placeholder="henry@example.com"
+                                placeholder="sika@example.com"
                                 className="text-field reveal-up"
                             />
                         </div>
@@ -145,7 +150,7 @@ const Contact = () => {
                         <textarea
                             name="message"
                             id="message"
-                            placeholder="Hi!"
+                            placeholder="Feel free to share your mind"
                             required
                             className="text-field resize-y min-h-32 max-h-80 reveal-up"
                         ></textarea>
