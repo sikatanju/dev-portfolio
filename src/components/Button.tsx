@@ -6,6 +6,7 @@ interface ButtonProps {
     label: string;
     icon?: string;
     classes?: string;
+    onClick: () => void;
 }
 
 const ButtonPrimary: React.FC<ButtonProps> = ({
@@ -14,6 +15,7 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
     label,
     icon,
     classes = "",
+    onClick,
 }) => {
     if (href) {
         return (
@@ -36,7 +38,7 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
         );
     } else {
         return (
-            <button className={`btn btn-primary ${classes}`}>
+            <button className={`btn btn-primary ${classes}`} onClick={onClick}>
                 {label}
 
                 {icon && (

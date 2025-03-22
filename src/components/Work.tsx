@@ -3,42 +3,42 @@ import { ProjectCard } from "./ProjectCard";
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const works = [
     {
-        imgSrc: "/images/project-1.jpg",
-        title: "Full stack music app",
+        imgSrc: "/images/project/project-1.png",
+        title: "ClientBridge CRM",
         tags: ["API", "MVC", "Development"],
-        projectLink: "https://musify-5al0.onrender.com/",
+        projectLink: "https://github.com/sikatanju/clientbridge-crm",
     },
     {
-        imgSrc: "/images/project-2.jpg",
-        title: "Free stock photo app",
-        tags: ["API", "SPA"],
-        projectLink: "https://pixstock-official.vercel.app/",
+        imgSrc: "/images/project/project-2.png",
+        title: "Vocalearn (AI Enhanched)",
+        tags: ["Web App", "API", "Development"],
+        projectLink: "https://github.com/sikatanju/vocalearn-frontend/",
     },
     {
-        imgSrc: "/images/project-3.jpg",
-        title: "Recipe app",
+        imgSrc: "/images/project/game-fusion-2.png",
+        title: "Game Fusion",
         tags: ["Development", "API"],
-        projectLink: "",
+        projectLink: "https://game-fusion-sikatanju.vercel.app/",
     },
     {
-        imgSrc: "/images/project-4.jpg",
-        title: "Real state website",
-        tags: ["Web-design", "Development"],
-        projectLink: "https://github.com/codewithsadee-org/wealthome",
+        imgSrc: "/images/project/project-biztrack-landing-page.png",
+        title: "Biztrack",
+        tags: ["SaaS", "Web App", "Development"],
+        projectLink: "https://github.com/sikatanju/biztrack-frontend",
     },
     {
-        imgSrc: "/images/project-5.jpg",
-        title: "eCommerce website",
-        tags: ["eCommerce", "Development"],
-        projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+        imgSrc: "/images/project/project-alien-invasion.png",
+        title: "Alien Invasion",
+        tags: ["Python", "Pygame"],
+        projectLink: "https://github.com/sikatanju/alien-invasion/",
     },
-    {
-        imgSrc: "/images/project-6.jpg",
-        title: "vCard Personal portfolio",
-        tags: ["Web-design", "Development"],
-        projectLink:
-            "https://github.com/codewithsadee/vcard-personal-portfolio",
-    },
+    // {
+    //     imgSrc: "/images/project-6.jpg",
+    //     title: "vCard Personal portfolio",
+    //     tags: ["Web-design", "Development"],
+    //     projectLink:
+    //         "https://github.com/codewithsadee/vcard-personal-portfolio",
+    // },
 ];
 
 const Work = () => {

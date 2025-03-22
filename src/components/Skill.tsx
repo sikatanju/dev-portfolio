@@ -10,39 +10,39 @@ const skillItem = [
         desc: "Design tool",
     },
     {
-        imgSrc: "/images/css3.svg",
+        imgSrc: "/images/css.svg",
         label: "CSS",
         desc: "User Interface",
-    },
-    {
-        imgSrc: "/images/javascript.svg",
-        label: "JavaScript",
-        desc: "Interaction",
-    },
-    {
-        imgSrc: "/images/nodejs.svg",
-        label: "NodeJS",
-        desc: "Web Server",
-    },
-    {
-        imgSrc: "/images/expressjs.svg",
-        label: "ExpressJS",
-        desc: "Node Framework",
-    },
-    {
-        imgSrc: "/images/mongodb.svg",
-        label: "MongoDB",
-        desc: "Database",
-    },
-    {
-        imgSrc: "/images/react.svg",
-        label: "React",
-        desc: "Framework",
     },
     {
         imgSrc: "/images/tailwindcss.svg",
         label: "TailwindCSS",
         desc: "User Interface",
+    },
+    {
+        imgSrc: "/images/python.svg",
+        label: "Python",
+        desc: "Programming Language",
+    },
+    {
+        imgSrc: "/images/django.svg",
+        label: "Django",
+        desc: "Backend Framework",
+    },
+    {
+        imgSrc: "/images/javascript.svg",
+        label: "JavaScript",
+        desc: "Programming Language",
+    },
+    {
+        imgSrc: "/images/react.svg",
+        label: "React",
+        desc: "Front-end Framework",
+    },
+    {
+        imgSrc: "/images/docker.svg",
+        label: "Docker",
+        desc: "Containerization",
     },
 ];
 
