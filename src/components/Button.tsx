@@ -1,28 +1,27 @@
-import React from "react";
-
 interface ButtonProps {
     href?: string;
     target?: "_self" | "_blank" | "_parent" | "_top";
     label: string;
     icon?: string;
     classes?: string;
-    onClick: () => void;
+    onClicked: () => void;
 }
 
-const ButtonPrimary: React.FC<ButtonProps> = ({
+const ButtonPrimary = ({
     href,
     target = "_self",
     label,
     icon,
     classes = "",
-    onClick,
-}) => {
+    onClicked,
+}: ButtonProps) => {
     if (href) {
         return (
             <a
                 href={href}
                 target={target}
                 className={`btn btn-primary ${classes}`}
+                onClick={onClicked}
             >
                 {label}
 
@@ -38,7 +37,10 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
         );
     } else {
         return (
-            <button className={`btn btn-primary ${classes}`} onClick={onClick}>
+            <button
+                className={`btn btn-primary ${classes}`}
+                onClick={onClicked}
+            >
                 {label}
 
                 {icon && (
@@ -54,19 +56,21 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
     }
 };
 
-const ButtonOutline: React.FC<ButtonProps> = ({
+const ButtonOutline = ({
     href,
     target = "_self",
     label,
     icon,
     classes = "",
-}) => {
+    onClicked,
+}: ButtonProps) => {
     if (href) {
         return (
             <a
                 href={href}
                 target={target}
                 className={`btn btn-outline ${classes}`}
+                onClick={onClicked}
             >
                 {label}
 
@@ -82,7 +86,10 @@ const ButtonOutline: React.FC<ButtonProps> = ({
         );
     } else {
         return (
-            <button className={`btn btn-outline ${classes}`}>
+            <button
+                className={`btn btn-outline ${classes}`}
+                onClick={onClicked}
+            >
                 {label}
 
                 {icon && (

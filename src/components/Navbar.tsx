@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { SyntheticEvent, useEffect, useRef } from "react";
 
 interface Props {

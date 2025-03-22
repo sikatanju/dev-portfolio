@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 import { ButtonPrimary } from "./Button";
 
 const sitemap = [
@@ -59,6 +57,7 @@ const Footer = () => {
                         </h2>
                         <div className="flex justify-center">
                             <ButtonPrimary
+                                onClicked={() => {}}
                                 href="mailto:codewithsadee@gmail.com"
                                 label="Start project"
                                 icon="chevron_right"

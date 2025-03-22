@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 const socialLinks = [
     {
         href: "https://www.github.com/sikatanju",

@@ -1,6 +1,5 @@
 import { ProjectCard } from "./ProjectCard";
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
 const works = [
     {
         imgSrc: "/images/project/project-1.png",
@@ -32,13 +31,6 @@ const works = [
         tags: ["Python", "Pygame"],
         projectLink: "https://github.com/sikatanju/alien-invasion/",
     },
-    // {
-    //     imgSrc: "/images/project-6.jpg",
-    //     title: "vCard Personal portfolio",
-    //     tags: ["Web-design", "Development"],
-    //     projectLink:
-    //         "https://github.com/codewithsadee/vcard-personal-portfolio",
-    // },
 ];
 
 const Work = () => {

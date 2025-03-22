@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 interface Props {
     imgSrc: string;
     label: string;

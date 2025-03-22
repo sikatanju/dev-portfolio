@@ -39,13 +39,13 @@ const Hero = () => {
 
                     <div className="flex items-center gap-3">
                         <ButtonPrimary
-                            onClick={() => downloadCV()}
+                            onClicked={() => downloadCV()}
                             label="Download CV"
                             icon="download"
                         />
 
                         <ButtonOutline
-                            onClick={() => {}}
+                            onClicked={() => {}}
                             href="#about"
                             label="Scroll down"
                             icon="arrow_downward"
