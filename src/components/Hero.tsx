@@ -20,7 +20,7 @@ const Hero = () => {
                                 src="/images/img_mine.jpg"
                                 width={40}
                                 height={40}
-                                alt="Henry clark portrait"
+                                alt="Sika Tanju Potrait"
                                 className="img-cover"
                             />
                         </figure>
