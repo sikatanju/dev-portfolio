@@ -20,10 +20,16 @@ const works = [
         projectLink: "https://game-fusion-sikatanju.vercel.app/",
     },
     {
+        imgSrc: "/images/project/BizTrack_Logo.png",
+        title: "Biztrack Backend",
+        tags: ["Backend", "Rest API", "Development"],
+        projectLink: "https://github.com/sikatanju/biztrack-backend",
+    },
+    {
         imgSrc: "/images/project/project-biztrack-landing-page.png",
-        title: "Biztrack",
+        title: "Biztrack Frontend",
         tags: ["SaaS", "Web App", "Development"],
-        projectLink: "https://github.com/sikatanju/biztrack-frontend",
+        projectLink: "https://biztrack-five.vercel.app/",
     },
     {
         imgSrc: "/images/project/project-alien-invasion.png",
