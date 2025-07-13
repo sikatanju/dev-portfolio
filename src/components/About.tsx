@@ -2,11 +2,11 @@ const About = () => {
     const aboutItems = [
         {
             label: "Project done",
-            number: 5,
+            number: 10,
         },
         {
             label: "Years of experience",
-            number: 0,
+            number: 0.5,
         },
     ];
 
@@ -15,14 +15,18 @@ const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                        I&apos;m Sayad, a full-stack web developer and
-                        passionate tech enthusiast specializing in Django,
-                        React, and TypeScript. My projects include
-                        ClientBridge-CRM, a customer relationship management
-                        platform, and GameFusion, an engaging game hub.
-                        Currently, I’m developing Vocalearn (AI Enhanced), a
-                        translator and pronunciation feedback app powered by
-                        Azure for real-time language analysis.
+                        I&apos;m Sayad, a full-stack web developer passionate
+                        about building impactful and user-centric applications
+                        with Django, React, and TypeScript. My key projects
+                        include Vocalearn (AI Enhanced) — a language learning
+                        platform that uses Azure AI for real-time translation
+                        and pronunciation feedback, BizTrack — a CRM solution
+                        for managing products, customers, and sales workflows,
+                        and Game Fusion — a responsive game discovery hub
+                        featuring advanced filtering, search, and platform
+                        sorting. I enjoy solving real-world problems through
+                        clean, scalable code and continuously learning to stay
+                        on the edge of modern web technologies.
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">

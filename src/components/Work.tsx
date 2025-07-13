@@ -2,16 +2,10 @@ import { ProjectCard } from "./ProjectCard";
 
 const works = [
     {
-        imgSrc: "/images/project/project-1.png",
-        title: "ClientBridge CRM",
-        tags: ["API", "MVC", "Development"],
-        projectLink: "https://github.com/sikatanju/clientbridge-crm",
-    },
-    {
         imgSrc: "/images/project/project-2.png",
         title: "Vocalearn (AI Enhanched)",
         tags: ["Web App", "API", "Development"],
-        projectLink: "https://github.com/sikatanju/vocalearn-frontend/",
+        projectLink: "https://vocalearn-ai.vercel.app/",
     },
     {
         imgSrc: "/images/project/game-fusion-2.png",
@@ -21,15 +15,21 @@ const works = [
     },
     {
         imgSrc: "/images/project/BizTrack_Logo.png",
-        title: "Biztrack Backend",
+        title: "Biztrack",
         tags: ["Backend", "Rest API", "Development"],
-        projectLink: "https://github.com/sikatanju/biztrack-backend",
+        projectLink: "https://biztrack-five.vercel.app/",
     },
     {
-        imgSrc: "/images/project/project-biztrack-landing-page.png",
-        title: "Biztrack Frontend",
-        tags: ["SaaS", "Web App", "Development"],
-        projectLink: "https://biztrack-five.vercel.app/",
+        imgSrc: "/images/project/project-1.png",
+        title: "ClientBridge CRM",
+        tags: ["API", "MVC", "Development"],
+        projectLink: "https://github.com/sikatanju/clientbridge-crm",
+    },
+    {
+        imgSrc: "/images/project/dev-portfolio.png",
+        title: "Dev Portfolio",
+        tags: ["React", "HTML", "CSS"],
+        projectLink: "https://saadtanju.me/",
     },
     {
         imgSrc: "/images/project/project-alien-invasion.png",
